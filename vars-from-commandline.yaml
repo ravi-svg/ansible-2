@@ -1,0 +1,8 @@
+
+#ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOPs321 vars-from-commandline.yaml -e "NAME=Ravi GREETING=RAVI2"
+- name: variables to print
+  hosts: web
+  tasks:
+  - name: print the information
+    ansible.builtin.debug:
+      msg: "Hello {{NAME}}, Good {{GREETING}}"

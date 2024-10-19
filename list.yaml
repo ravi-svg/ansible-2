@@ -1,0 +1,23 @@
+#list of studensts
+- Name: ramya
+  Email: ravi@gmail
+  Addresses: #list of address
+  - type: perm
+    address1: mm
+    address2: mm2
+
+  - type: current
+    address1: busstans
+    address2: busstand2
+
+- Name: rani
+  Email: ravi@gmail
+  Addresses: #list of address
+  - type: perm
+    address1: mm
+    address2: mm2
+
+  - type: current
+    address1: busstans
+    address2: busstand2
+
