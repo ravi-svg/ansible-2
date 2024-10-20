@@ -3,15 +3,16 @@
   connection: local
   # assignment
   # move this to vars_files
+ 
   vars:
-    subnet_id: "subnet-09863c54177764565" # replace with your subnet id
-    sg_id: "sg-09a300a3729062c5a"
+    subnet_id: "subnet-0b8d4af89b9056088" # replace with your subnet id
+    sg_id: "sg-0c1d30a6101c5d8bc"
     ami_id: "ami-09c813fb71547fc4f"
     instances:
     - mysql
     - backend
     - frontend
-    zone: daws81s.online
+    zone: ravi81.online
   tasks:
   - name: ansible to install boto3 and botocore
     ansible.builtin.pip:
